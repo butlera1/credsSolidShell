@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    // other options
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "checkJs": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/local_collection_driver.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/collection/collection.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/asynchronous_cursor.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/doc_fetcher.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/mongo_common.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/mongo_connection.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/mongo_driver.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/mongo_utils.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/oplog_observe_driver.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/collection/collection_utils.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/collection/methods_async.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/collection/methods_index.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/collection/methods_replication.js",
+        "/Users/arch/.meteor/packages/mongo/2.1.1/web.browser/collection/methods_sync.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/arch/.meteor/packages/reactive-var/1.0.13/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/arch/.meteor/packages/es5-shim/4.8.1/web.browser/client.js",
+        "/Users/arch/.meteor/packages/es5-shim/4.8.1/web.browser/console.js",
+        "/Users/arch/.meteor/packages/es5-shim/4.8.1/web.browser/cordova.js",
+        "/Users/arch/.meteor/packages/es5-shim/4.8.1/web.browser/export_globals.js",
+        "/Users/arch/.meteor/packages/es5-shim/4.8.1/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/arch/.meteor/packages/ecmascript/0.16.10/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/arch/.meteor/packages/shell-server/0.6.1/web.browser/main.js",
+        "/Users/arch/.meteor/packages/shell-server/0.6.1/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/arch/.meteor/packages/hot-module-replacement/0.5.4/web.browser/hot-api.js",
+        "/Users/arch/.meteor/packages/hot-module-replacement/0.5.4/web.browser/client.js",
+        "/Users/arch/.meteor/packages/hot-module-replacement/0.5.4/web.browser/server.js"
+      ],
+      "meteor/jorgenvatle:vite": [
+        "/Users/arch/.meteor/packages/jorgenvatle_vite/1.5.1/web.browser/dist/server.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}

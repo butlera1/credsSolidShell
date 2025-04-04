@@ -1,0 +1,61 @@
+# Node.js and npm
+node_modules/
+npm-debug.log
+package-lock.json  # Optional: Include if you use yarn instead
+
+# Meteor-specific
+.meteor/
+.meteorite
+*.log
+*.pid
+
+# Svelte build artifacts
+public/build/
+public/bundle.js
+public/bundle.css
+public/*.map  # Source maps
+
+# Solid.js-specific
+# (Note: Solid.js itself doesn’t generate unique build files outside Vite/Meteor)
+# If using Vite with Solid:
+vite.config.js.timestamp-*
+.cache/
+
+# Common build and dependency files
+dist/
+build/
+*.bundle.js
+*.bundle.css
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+temp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing and coverage
+coverage/
+*.test.js
+*.spec.js  # Optional: Include if you don’t want test files in git
+
+# Optional: Ignore compiled files if you use TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+
+package
