@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
-    // other options
-    "jsx": "preserve",
+    "jsx": "react",
     "jsxImportSource": "solid-js",
     "checkJs": true,
     "allowJs": true,

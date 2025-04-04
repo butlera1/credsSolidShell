@@ -1,5 +1,8 @@
 # credsSolidShell
-Example solid.js app for creds.
+Example Meteor + Solid.js app for creds.
 
-This has vite.js used and solid-router.js along with settings for VSCode.
+# This includes:
+ - vite.js (build aid)
+ - solid-router.js (client-side router for Solid.js)
+ - settings for VSCode.
 
