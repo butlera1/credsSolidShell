@@ -1,4 +1,6 @@
 import { createSignal } from "solid-js";
+import { Button } from "@suid/material";
+
 
 export const Hello = () => {
   const [counter, setCounter] = createSignal(0);
@@ -9,7 +11,7 @@ export const Hello = () => {
 
   return (
     <div>
-      <button onClick={increment}>Click Me</button>
+      <Button variant="contained" onClick={increment}>Click Me</Button>
       <p>You've pressed the button {counter()} times.</p>
     </div>
   );
