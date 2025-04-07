@@ -4,7 +4,7 @@ npm-debug.log
 package-lock.json  # Optional: Include if you use yarn instead
 
 # Meteor-specific
-.meteor/
+.meteor/local
 .meteorite
 *.log
 *.pid
@@ -28,8 +28,8 @@ build/
 *.bundle.css
 
 # OS-specific files
-.DS_Store  # macOS
-Thumbs.db  # Windows
+**/.DS_Store  # macOS
+**/Thumbs.db  # Windows
 
 # Editor and IDE files
 .vscode/
